@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav, li {
+	border-color: rgb(80, 80, 80)
+}
+
+.hero-card {
+	width: 30rem;
+	margin-right: .5rem;
+	border: 5px solid transparent;
+	border-radius: 2rem;
+	filter: brightness(.5)
+}
+
+.hero-card:hover {
+	filter: brightness(.8)
+}

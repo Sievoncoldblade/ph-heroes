@@ -1,0 +1,19 @@
+{
+  "name": "pheroes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
+		"watch-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch",
+		"start": "live-server public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
